@@ -48,5 +48,10 @@ a:before{
     height: 60px;
     border: none;
     box-shadow: 5px 5px 0px #000000;
+    transition: background-color 1s;
+}
+#botao:hover{
+    background-color: #f7082c;
+    cursor: pointer;
 }
 
