@@ -48,10 +48,11 @@ a:before{
     height: 60px;
     border: none;
     box-shadow: 5px 5px 0px #000000;
-    transition: background-color 1s;
+    transform: background-color 0.6s ease-in-out;
 }
 #botao:hover{
     background-color: #f7082c;
+    transform: scale(1.06);
     cursor: pointer;
 }
 
